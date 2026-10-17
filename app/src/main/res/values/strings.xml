@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ספוטיפיי קלון</string>
+    <string name="home">בית</string>
+    <string name="search">חיפוש</string>
+    <string name="library">הספרייה שלי</string>
+    <string name="good_evening">ערב טוב</string>
+    <string name="made_for_you">מיוחד בשבילך בהתאמה אישית</string>
+    <string name="recommendation_hint">אנחנו לומדים את הטעם שלך בזמן שאתה מאזין לשירים ❤️</string>
+    <string name="liked_songs">שירים שאהבת</string>
+    <string name="search_hint">מה בא לך לשמוע היום?</string>
+    <string name="playlist_empty">אין שירים בספרייה עדיין</string>
+</resources>
