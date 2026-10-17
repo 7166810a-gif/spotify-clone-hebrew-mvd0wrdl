@@ -44,7 +44,7 @@ public class SearchFragment extends Fragment {
             final TextView chip = new TextView(getActivity());
             chip.setText(genre);
             chip.setTextColor(0xFFFFFFFF);
-            chip.setTextSize(14sp);
+            chip.setTextSize(android.util.TypedValue.COMPLEX_UNIT_SP, 14);
             chip.setPadding((int)(16*density), (int)(8*density), (int)(16*density), (int)(8*density));
             LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
             lp.setMargins(0, 0, (int)(8*density), 0);

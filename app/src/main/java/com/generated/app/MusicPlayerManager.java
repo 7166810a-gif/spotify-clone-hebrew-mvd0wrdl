@@ -5,7 +5,8 @@ import android.media.MediaPlayer;
 import android.net.Uri;
 import android.util.Log;
 import java.io.IOException;
-import java.util.ArrayList, java.util.List;
+import java.util.ArrayList;
+import java.util.List;
 
 public class MusicPlayerManager {
     private static MusicPlayerManager instance;

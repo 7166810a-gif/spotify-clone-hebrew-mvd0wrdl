@@ -113,14 +113,14 @@ public class HomeFragment extends Fragment {
             TextView tvTitle = new TextView(getActivity());
             tvTitle.setText(song.getTitle());
             tvTitle.setTextColor(0xFFFFFFFF);
-            tvTitle.setTextSize(14sp);
+            tvTitle.setTextSize(android.util.TypedValue.COMPLEX_UNIT_SP, 14);
             tvTitle.setSingleLine(true);
             tvTitle.setPadding(0, 8, 0, 2);
 
             TextView tvArtist = new TextView(getActivity());
             tvArtist.setText(song.getArtist());
             tvArtist.setTextColor(0xFFB3B3B3);
-            tvArtist.setTextSize(12sp);
+            tvArtist.setTextSize(android.util.TypedValue.COMPLEX_UNIT_SP, 12);
             tvArtist.setSingleLine(true);
 
             itemLayout.addView(img);
